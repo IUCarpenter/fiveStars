@@ -15,7 +15,7 @@ import gzip
 import json
 
 
-MAX_REVIEWS_PER_KATEGORIE = 10000     # Anzahl Reviews pro Kategorie die verarbeitet werden
+MAX_REVIEWS_PER_KATEGORIE = 3000000     # Anzahl Reviews pro Kategorie die verarbeitet werden
 MAX_FEATURES = 5000                   # Anzahl von Features für TF-IDF Vektor 
 
 
