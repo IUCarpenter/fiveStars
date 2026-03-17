@@ -1,0 +1,4 @@
+@echo off
+powershell -Command "Invoke-WebRequest 'https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Amazon_Fashion.jsonl.gz' -OutFile 'datasets\Amazon_Fashion.jsonl.gz'"
+powershell -Command "Invoke-WebRequest 'https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Arts_Crafts_and_Sewing.jsonl.gz' -OutFile 'datasets\Arts_Crafts_and_Sewing.jsonl.gz'"
+powershell -Command "Invoke-WebRequest 'https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw/review_categories/Electronics.jsonl.gz' -OutFile 'datasets\Electronics.jsonl.gz'"
